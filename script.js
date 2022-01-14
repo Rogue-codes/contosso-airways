@@ -104,7 +104,29 @@ function inActive1(elements){
     elements.forEach( element => {
         element.classList.remove('active1')})
 }
+// menu
+const menu = document.getElementById('menu')
+const cancel = document.getElementById('cancel')
+const drpdwns = document.getElementById('drp')
+
+menu.addEventListener('click', ()=>{
+    // drpdwns.classList.add('.show')
+    // console.log(drpdwns)
+    drpdwns.style.left = '0%'
+    menu.style.display = 'none'
+})
+
+cancel.addEventListener('click', ()=>{
+    drpdwns.style.left = '-90%'
+    menu.style.display = 'block'
+})
 
 
 
+// loader
 
+let loader = document.getElementById('loader')
+
+window.addEventListener('load', () => {
+    loader.style.display = 'none'
+})
