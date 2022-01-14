@@ -10,6 +10,9 @@ header{
     height: 70vh;
     background: linear-gradient( rgba(77, 74, 74, 0.547), rgba(14, 12, 12, 0.501) ),url("https://images.pexels.com/photos/1634380/pexels-photo-1634380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")center center fixed;
     background-size: cover; 
+    @media (max-width:850px) {
+        background-position: top 60% left 60%;
+    }
 }
 nav{
     display: flex;
@@ -23,9 +26,15 @@ nav{
         font-size: 2.5rem;
         color: #68143f;
         text-shadow: 2px 2px 4px black;
+        @media (max-width:850px) {
+            font-size: 1.5rem;
+        }
         span{
             font-size: 1.5rem;
             color: white;
+            @media (max-width:850px) {
+                font-size: .7rem;
+            }
         }
     }
 
@@ -42,6 +51,9 @@ nav{
             cursor: pointer;
             color: #68143f;
             transition: all .3s linear;
+            @media (max-width:850px) {
+                font-size: .8rem;
+            }
             &:hover{
                 text-decoration: underline;
                 color: white;
@@ -102,6 +114,9 @@ nav{
 .text{
     padding-top: 8%;
     padding-left: 5%;
+    @media (max-width:850px) {
+        padding-top: 18%;
+    }
     h1{
         color: #68143f;
         span{
@@ -134,9 +149,15 @@ nav{
     border-radius: 5px;
     margin-left: 5%;
     margin-bottom: 5%;
+    @media (max-width:1100px) {
+        height: auto;
+    }
     i{
         font-size: 22px;
         color: white;
+        @media (max-width:1100px) {
+            font-size: .6rem;
+        }
     }
     .toggle{
         display: flex;
@@ -145,6 +166,9 @@ nav{
         color: white;
         border-radius: 5px;
         background-color: #68143f;
+        @media (max-width:850px) {
+            font-size: .7rem;
+        }
         .tab1{
             padding: 1% 8%;
         }
@@ -184,6 +208,8 @@ nav{
                 border: none;
                 font-size: 1.2rem;
                 border-radius: 5px;
+
+            
                 cursor: pointer;
                 i{
                     color: #222;
@@ -204,6 +230,10 @@ nav{
             border: none;
             font-size: 1.2rem;
             border-radius: 5px;
+            @media (max-width:850px) {
+                font-size: .6rem;
+                padding: 2% 3%;
+            }
             cursor: pointer;
             i{
                 color: #222;
@@ -284,6 +314,8 @@ nav{
     background: url('https://images.pexels.com/photos/8766370/pexels-photo-8766370.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') center center  no-repeat;
     background-size: cover; 
     border-radius: 15px;
+    @media (max-width:850px) {
+    }
 }
 .img2{
     width: 20%;
@@ -303,6 +335,9 @@ nav{
     height: 50vh;
     margin: auto;
     position: relative;
+    @media (max-width:1100px) {
+        font-size: .7rem;
+    }
     p{
         padding-bottom: 2%;
     }
@@ -313,6 +348,9 @@ nav{
         display: flex;
         justify-content: start;
         gap: 50px;
+        @media (max-width:1100px) {
+            flex-wrap: wrap;
+        }
 
         .flexItem{
             width: 30%;
@@ -321,6 +359,9 @@ nav{
             border: 1px solid rgb(190, 181, 181);
             transition: all .3s linear;
             cursor: pointer;
+            @media (max-width:1100px) {
+                min-width: 45%;
+            }
             img{
                 width: 100%;
                 border-top-right-radius: 15px;
@@ -344,13 +385,14 @@ nav{
     }
 }
 .two{
-    // background-color: blue;
     width: 90%;
     position: relative;
     margin: auto;
     height: auto;
+    @media (max-width:1100px) {
+        margin-top: 18%;
+    }
 
-    // color: #68143f;
     select{
         padding: 1% 7%;
     }
@@ -360,12 +402,15 @@ nav{
     padding-left: 2%;
     padding-top: 2%;
     width: 100%;
-    // position: absolute;
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 13px;
     grid-row-gap: 3px;
+    @media (max-width:850px) {
+        display: block;
+        margin-top: 8%;
+    }
     }
     
     .div1 { 
@@ -374,6 +419,9 @@ nav{
         overflow: hidden;
         border-radius: 10px;
         height: 60vh;
+        @media (max-width:850px) {
+            margin: 2%;
+        }
         img{
             width: 100%;
             height: 100%;
@@ -411,6 +459,9 @@ nav{
         background-color: aqua;
         position: relative;
         border-radius: 10px;
+        @media (max-width:850px) {
+            margin: 2%;
+        }
         
         img{
             width: 100%;
@@ -443,6 +494,9 @@ nav{
             transform: translate(-50%, -50%);
             text-align: center;
             font-size: .9rem;
+            @media (max-width:850px) {
+                font-size: .7rem;
+            }
             button{
                 font-size: 1rem;
                 font-weight: 200;
@@ -457,6 +511,9 @@ nav{
         background-color: aqua;
         position: relative;
         border-radius: 10px;
+        @media (max-width:850px) {
+            margin: 2%;
+        }
         
         img{
             width: 100%;
@@ -489,6 +546,9 @@ nav{
             transform: translate(-50%, -50%);
             text-align: center;
             font-size: .9rem;
+            @media (max-width:850px) {
+                font-size: .7rem;
+            }
             button{
                 font-size: 1rem;
                 font-weight: 200;
@@ -503,6 +563,9 @@ nav{
         background-color: aqua;
         position: relative;
         border-radius: 10px;
+        @media (max-width:850px) {
+            margin: 2%;
+        }
         
         img{
             width: 100%;
@@ -535,6 +598,9 @@ nav{
             transform: translate(-50%, -50%);
             text-align: center;
             font-size: .9rem;
+            @media (max-width:850px) {
+                font-size: .7rem;
+            }
             button{
                 font-size: 1rem;
                 font-weight: 200;
@@ -549,6 +615,9 @@ nav{
         background-color: aqua;
         position: relative;
         border-radius: 10px;
+        @media (max-width:850px) {
+            margin: 2%;
+        }
         
         img{
             width: 100%;
@@ -581,6 +650,9 @@ nav{
             transform: translate(-50%, -50%);
             text-align: center;
             font-size: .9rem;
+            @media (max-width:850px) {
+                font-size: .7rem;
+            }
             button{
                 font-size: 1rem;
                 font-weight: 200;
@@ -595,6 +667,9 @@ nav{
         background-color: aqua;
         position: relative;
         border-radius: 10px;
+        @media (max-width:850px) {
+            margin: 2%;
+        }
         
         img{
             width: 100%;
@@ -627,6 +702,9 @@ nav{
             transform: translate(-50%, -50%);
             text-align: center;
             font-size: .9rem;
+            @media (max-width:850px) {
+                font-size: .7rem;
+            }
             button{
                 font-size: 1rem;
                 font-weight: 200;
@@ -641,6 +719,9 @@ nav{
         background-color: aqua;
         position: relative;
         border-radius: 10px;
+        @media (max-width:850px) {
+            margin: 2%;
+        }
         
         img{
             width: 100%;
@@ -673,6 +754,9 @@ nav{
             transform: translate(-50%, -50%);
             text-align: center;
             font-size: .9rem;
+            @media (max-width:850px) {
+                font-size: .7rem;
+            }
             button{
                 font-size: 1rem;
                 font-weight: 200;
@@ -687,6 +771,9 @@ nav{
         background-color: aqua;
         position: relative;
         border-radius: 10px;
+        @media (max-width:850px) {
+            margin: 2%;
+        }
         
         img{
             width: 100%;
@@ -719,6 +806,9 @@ nav{
             transform: translate(-50%, -50%);
             text-align: center;
             font-size: .9rem;
+            @media (max-width:850px) {
+                font-size: .7rem;
+            }
             button{
                 font-size: 1rem;
                 font-weight: 200;
@@ -733,6 +823,9 @@ nav{
         background-color: aqua;
         position: relative;
         border-radius: 10px;
+        @media (max-width:850px) {
+            margin: 2%;
+        }
         
         img{
             width: 100%;
@@ -765,6 +858,9 @@ nav{
             transform: translate(-50%, -50%);
             text-align: center;
             font-size: .9rem;
+            @media (max-width:1100px) {
+                font-size: .7rem;
+            }
             button{
                 font-size: 1rem;
                 font-weight: 200;
@@ -799,6 +895,9 @@ nav{
     background-size: cover;
     height: 50vh;
     position: relative;
+    @media (max-width:850px) {
+        height: 25vh;
+    }
     .priv{
         background-color: rgba(0, 0, 0, 0.699);
         padding: 1% 1%;
@@ -808,6 +907,14 @@ nav{
         position: absolute;
         color: white;
         border-radius: 5px;
+        @media (max-width:1100px) {
+            font-size: .7rem;
+        }
+
+        @media (max-width:850px) {
+            font-size: .7rem;
+            width: 60%;
+        }
         button{
             padding: 2% 8%;
             background: transparent;
@@ -832,6 +939,9 @@ nav{
     background-position:  right 30%;
     height: 50vh;
     position: relative;
+    @media (max-width:850px) {
+        height: 25vh;
+    }
     .bag{
         background-color: rgba(0, 0, 0, 0.712);
         padding: 1% 1%;
@@ -841,12 +951,19 @@ nav{
         position: absolute;
         color: white;
         border-radius: 5px;
+        @media (max-width:1100px) {
+            font-size: .7rem;
+        }
         h1{
             padding: 3%;
         }
         p{
             padding-bottom: 3%;
             padding-left: 3%;
+        }
+        @media (max-width:850px) {
+            font-size: .7rem;
+            width: 60%;
         }
         button{
             margin-left: 3%;
@@ -872,6 +989,9 @@ nav{
     background-size: cover;
     height: 50vh;
     position: relative;
+    @media (max-width:850px) {
+        height: 25vh;
+    }
     .mobi{
         background-color: rgba(0, 0, 0, 0.712);
         padding: 1% 1%;
@@ -881,12 +1001,19 @@ nav{
         position: absolute;
         color: white;
         border-radius: 5px;
+        @media (max-width:1100px) {
+            font-size: .7rem;
+        }
         h1{
             padding: 3%;
         }
         p{
             padding-bottom: 3%;
             padding-left: 3%;
+        }
+        @media (max-width:850px) {
+            font-size: .7rem;
+            width: 60%;
         }
         button{
             margin-left: 3%;
@@ -911,6 +1038,9 @@ nav{
     background-size: cover;
     height: 50vh;
     position: relative;
+    @media (max-width:850px) {
+        height: 25vh;
+    }
     .tor{
         background-color: rgba(0, 0, 0, 0.712);
         padding: 1% 1%;
@@ -920,12 +1050,19 @@ nav{
         position: absolute;
         color: white;
         border-radius: 5px;
+        @media (max-width:1100px) {
+            font-size: .7rem;
+        }
         h1{
             padding: 3%;
         }
         p{
             padding-bottom: 3%;
             padding-left: 3%;
+        }
+        @media (max-width:850px) {
+            font-size: .7rem;
+            width: 60%;
         }
         button{
             margin-left: 3%;
@@ -973,6 +1110,9 @@ nav{
     width: 90%;
     margin: auto;
     flex-wrap: wrap;
+    @media (max-width:850px) {
+        height: 60%;
+    }
 
 
 
@@ -991,16 +1131,31 @@ nav{
         p{
             padding: 1% 2%;
             color: grey;
+            @media (max-width:1100px) {
+                font-size: .7rem;
+            }
+            @media (max-width:850px) {
+                font-size: .7rem;
+            }
         }
         h2{
             padding: 2%;
             color: #68143f;
+            @media (max-width:1100px) {
+                font-size: 1.1rem;
+            }
+            @media (max-width:850px) {
+                font-size: .9rem;
+            }
         }
         span{
             padding: 2%;
             a{
                 color: #68143f;
                 text-decoration: none;
+                @media (max-width:1100px) {
+                    font-size: 1rem;
+                }
             }
         }
     }
@@ -1021,16 +1176,28 @@ nav{
         p{
             padding: 1% 2%;
             color: grey;
+            @media (max-width:1100px) {
+                font-size: .7rem;
+            }
         }
         h2{
             padding: 2%;
             color: #68143f;
+            @media (max-width:1100px) {
+                font-size: 1.1rem;
+            }
+            @media (max-width:850px) {
+                font-size: .9rem;
+            }
         }
         span{
             padding: 2%;
             a{
                 color: #68143f;
                 text-decoration: none;
+                @media (max-width:1100px) {
+                    font-size: 1rem;
+                }
             }
         }
     }
@@ -1051,10 +1218,17 @@ nav{
     padding: 4%;
     width: 90%;
     margin: auto;
+    @media (max-width:850px) {
+        flex-wrap: wrap;
+        padding: 3% 4%;
+    }
     .sixCont{
         width: 30%;
         height: 100%;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        @media (max-width:850px) {
+            min-width: 45%;
+        }
         img{
             width: 100%;
             height: 80%;
@@ -1068,6 +1242,9 @@ nav{
             justify-content: space-between;
             text-align: left;
             color: maroon;
+            @media (max-width:1100px) {
+                font-size: .7rem;
+            }
         }
     }
 }
@@ -1084,6 +1261,9 @@ nav{
         width: 45%;
         height: 30vh;
         color: #fff;
+        @media (max-width:850px) {
+            top: 30%;
+        }
         button{
             right: 1%;
             position: absolute;
@@ -1094,6 +1274,9 @@ nav{
             color: white;
             font-size: 1rem;
             border-radius: 5px;
+            @media (max-width:850px) {
+                font-size: 0.7rem;
+            }
             cursor: pointer;
             transition: all .3s linear;
                 &:hover{
@@ -1109,9 +1292,15 @@ nav{
                 height: 7vh;
                 width: 80%;
                 border: none;
+                @media (max-width:850px) {
+                    height: 3vh;
+                }
                 &::placeholder{
                     flex: 1.5rem;
                     padding-left: 2%;
+                    @media (max-width:850px) {
+                        font-size: .5rem;
+                    }
                 }
             }
             input[type="email"]{
@@ -1130,9 +1319,18 @@ nav{
         }
         span{
             font-size: 0.8rem;
+            @media (max-width:1100px) {
+                font-size: .7rem;
+            }
+            @media (max-width:850px) {
+                font-size: .5rem;
+            }
         }
         p{
             padding: 2% 0%;
+            @media (max-width:1100px) {
+                font-size: .7rem;
+            }
         }
     }
 }
@@ -1142,6 +1340,12 @@ footer{
     height: 100vh;
     background-color: #68143f;
     position: relative;
+    @media (max-width:1100px) {
+        height: 120vh;
+    }
+    @media (max-width:850px) {
+        height: 60vh;
+    }
     .foot{
         padding: 5%;
         .top{
@@ -1151,6 +1355,9 @@ footer{
                 h2{
                     font-size: 1rem;
                     color: #fff;
+                    @media (max-width:1100px) {
+                        font-size: .7rem;
+                    }
                 }
                 ul{
                     list-style-type: none;
@@ -1160,6 +1367,9 @@ footer{
                             text-decoration: none;
                             color: rgb(214, 203, 203);
                             font-size: 0.8rem;
+                            @media (max-width:1100px) {
+                                font-size: .6rem;
+                            }
                         }
                     }
                 }
@@ -1169,12 +1379,18 @@ footer{
                     font-size: 1rem;
                     color: white;
                     padding-bottom: 3%;
+                    @media (max-width:1100px) {
+                        font-size: .7rem;
+                    }
                 }
                 i{
                     color: white;
                     font-size: 1.5em;
                     margin: 1.5%;
                     cursor: pointer;
+                    @media (max-width:1100px) {
+                        font-size: 1rem;
+                    }
                 }
             }
         }
@@ -1184,6 +1400,9 @@ footer{
             justify-content: start;
             margin-top: 6%;
             .botItem{
+                @media (max-width:1100px) {
+                    font-size: .7rem;
+                }
                 color: #fff;
                 .pic{
                     width: 100px;
