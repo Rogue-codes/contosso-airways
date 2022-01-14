@@ -7,6 +7,10 @@
           box-sizing: border-box;
 }
 
+body {
+  background-color: #f7f7f7;
+}
+
 header {
   width: 100%;
   height: 70vh;
@@ -484,6 +488,7 @@ nav .dropdown .dropContnt .row .col a i {
   -webkit-transition: all .3s linear;
   transition: all .3s linear;
   cursor: pointer;
+  background-color: white;
 }
 
 @media (max-width: 1100px) {
@@ -1495,6 +1500,7 @@ nav .dropdown .dropContnt .row .col a i {
           box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   width: 40%;
   border-radius: 5px;
+  background-color: white;
 }
 
 .four .african img {
@@ -1562,6 +1568,7 @@ nav .dropdown .dropContnt .row .col a i {
           box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   color: #222;
   border-radius: 5px;
+  background-color: #fff;
 }
 
 .four .studentClub img {
@@ -1653,6 +1660,7 @@ nav .dropdown .dropContnt .row .col a i {
   height: 100%;
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
           box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
 }
 
 @media (max-width: 850px) {

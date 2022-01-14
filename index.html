@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
     <link rel="stylesheet" href="/main/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -238,7 +239,7 @@
         </div>
 
     </section>
-    <section class="one">
+    <section class="one"  data-aos="fade-up">
         <h3>Travel Safely with us</h3>
         <p>As one of the largest and most experienced global airlines throughout the COVID-19 crisis, you can rely on us to take you on your next journey safely.</p>
         <div class="flex">
@@ -260,7 +261,7 @@
             </div>
         </div>
     </section>
-    <section class="two">
+    <section class="two" data-aos="zoom-in">
         <h1>Our latest flight deals</h1>
         from 
         <select name="" id="">
@@ -481,7 +482,7 @@
     <section class="btn">
         <button>View more fares</button>
     </section> <br>
-    <section class="book">
+    <section class="book" data-aos="fade-up">
         <div class="togg">
             <div class="tab5 active1">
                 Privilege Club
@@ -537,7 +538,7 @@
         <p>Discover the latest offers and news and start planning your next trip with us.</p>
     </section>
     <section class="four">
-        <div class="african">
+        <div class="african" data-aos="flip-left">
             <img src="https://www.qatarairways.com/content/dam/images/renditions/horizontal-2/destinations/regional/southern-africa/h2-africa-sunset-safari.jpg" alt="">
             <h2>Exclusive offers to African destinations</h2>
             <p>All-inclusive fares starting from USD 563*</p>
@@ -545,7 +546,7 @@
             <span><a href="#">Book now</a></span>
         </div> 
 
-        <div class="studentClub">
+        <div class="studentClub" data-aos="flip-left">
             <img src="https://www.qatarairways.com/content/dam/images/renditions/horizontal-2/campaigns/global/sc-anniversary/h2-sc-anniversary-ar.jpg" alt="">
             <h2>Aim for the skies with Student Club</h2>
             <p>Offering you exclusive benefits including special fares, extra baggage and more.</p>
@@ -553,11 +554,11 @@
             <span><a href="#">Join now</a></span>
         </div>
     </section>
-    <section class="five">
+    <section class="five" data-aos="fade-up">
         <h2>Complement your journey</h2>
         <p>Upgrade or save up to 20% when you purchase extra baggage, lounge access or meet and assist services online to make your journey even more memorable.</p>
     </section>
-    <section class="six">
+    <section class="six" data-aos="fade-up">
         <div class="sixCont">
             <img src="https://www.qatarairways.com/content/dam/images/renditions/horizontal-2/brand/qsuite/h2-qsuite-businessman.jpg" alt="">
             <a href="#">Upgrade to premium   <i class="fas fa-chevron-right"></i></a>
@@ -575,7 +576,7 @@
             <a href="#">Al maha meet & assist   <i class="fas fa-chevron-right"></i></a>
         </div>
     </section><br><br><br><br><br><br>
-    <div class="last">
+    <div class="last" data-aos="fade-up">
         <div class="lastCont">
             <h2>Never miss an offer</h2>
             <p>Subscribe and be the first to receive our exclusive offers.</p>
@@ -662,5 +663,12 @@
     </footer>
     
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset:400,
+          duration:1000
+      });
+    </script>
 </body>
 </html>
