@@ -69,6 +69,12 @@ nav .dropdown {
   display: flex;
 }
 
+@media (max-width: 450px) {
+  nav .dropdown {
+    display: none;
+  }
+}
+
 nav .dropdown:hover .dropContnt {
   display: block;
   margin-top: 1.2%;
@@ -177,6 +183,12 @@ nav .dropdown .dropContnt .row .col a i {
   color: #68143f;
 }
 
+@media (max-width: 450px) {
+  .text h1 {
+    font-size: 1.8rem;
+  }
+}
+
 .text h1 span {
   font-size: 1rem;
   color: white;
@@ -212,6 +224,12 @@ nav .dropdown .dropContnt .row .col a i {
   margin-bottom: 5%;
 }
 
+@media (max-width: 450px) {
+  .book {
+    margin-top: -10%;
+  }
+}
+
 @media (max-width: 1100px) {
   .book {
     height: auto;
@@ -223,9 +241,15 @@ nav .dropdown .dropContnt .row .col a i {
   color: white;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 850px) {
   .book i {
     font-size: .6rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .book i {
+    font-size: .3rem;
   }
 }
 
@@ -248,20 +272,50 @@ nav .dropdown .dropContnt .row .col a i {
   }
 }
 
+@media (max-width: 450px) {
+  .book .toggle {
+    font-size: .5rem;
+  }
+}
+
 .book .toggle .tab1 {
   padding: 1% 8%;
+}
+
+@media (max-width: 450px) {
+  .book .toggle .tab1 {
+    padding: 1% 4%;
+  }
 }
 
 .book .toggle .tab2 {
   padding: 1% 8%;
 }
 
+@media (max-width: 450px) {
+  .book .toggle .tab2 {
+    padding: 1% 4%;
+  }
+}
+
 .book .toggle .tab3 {
   padding: 1% 8%;
 }
 
+@media (max-width: 450px) {
+  .book .toggle .tab3 {
+    padding: 1% 4%;
+  }
+}
+
 .book .toggle .tab4 {
   padding: 1% 8%;
+}
+
+@media (max-width: 450px) {
+  .book .toggle .tab4 {
+    padding: 1% 4%;
+  }
 }
 
 .book input {
@@ -271,10 +325,27 @@ nav .dropdown .dropContnt .row .col a i {
   border-radius: 10px;
 }
 
+@media (max-width: 450px) {
+  .book input {
+    font-size: .6rem;
+    width: 80%;
+    margin: 2%;
+    border-radius: 5px;
+  }
+}
+
 .book select {
   padding: 1% 3%;
   border: 1px solid grey;
   border-radius: 10px;
+}
+
+@media (max-width: 450px) {
+  .book select {
+    font-size: .6rem;
+    width: 80%;
+    border-radius: 5px;
+  }
 }
 
 .book #book {
@@ -305,8 +376,16 @@ nav .dropdown .dropContnt .row .col a i {
   cursor: pointer;
 }
 
+@media (max-width: 450px) {
+  .book #book .txt button {
+    padding: 1% 4%;
+    font-size: 0.5rem;
+  }
+}
+
 .book #book .txt button i {
   color: #222;
+  font-size: 0.7rem;
 }
 
 .book #trip {
@@ -317,6 +396,14 @@ nav .dropdown .dropContnt .row .col a i {
   width: 40%;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
+}
+
+@media (max-width: 450px) {
+  .book #trip input {
+    font-size: .6rem;
+    width: 80%;
+    border-radius: 5px;
+  }
 }
 
 .book #trip button {
@@ -332,6 +419,13 @@ nav .dropdown .dropContnt .row .col a i {
   .book #trip button {
     font-size: .6rem;
     padding: 2% 3%;
+  }
+}
+
+@media (max-width: 450px) {
+  .book #trip button {
+    padding: 1% 4%;
+    font-size: 0.5rem;
   }
 }
 
@@ -354,6 +448,14 @@ nav .dropdown .dropContnt .row .col a i {
   padding-bottom: 1.5%;
 }
 
+@media (max-width: 450px) {
+  .book #checkIn input {
+    font-size: .6rem;
+    width: 80%;
+    border-radius: 5px;
+  }
+}
+
 .book #checkIn button {
   padding: 1% 3%;
   background-color: goldenrod;
@@ -361,6 +463,13 @@ nav .dropdown .dropContnt .row .col a i {
   font-size: 1.2rem;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .book #checkIn button {
+    padding: 1% 4%;
+    font-size: 0.5rem;
+  }
 }
 
 .book #checkIn button i {
@@ -382,6 +491,14 @@ nav .dropdown .dropContnt .row .col a i {
   padding-bottom: 1.5%;
 }
 
+@media (max-width: 450px) {
+  .book #flightStatus input {
+    font-size: .6rem;
+    width: 80%;
+    border-radius: 5px;
+  }
+}
+
 .book #flightStatus select {
   width: 27%;
   padding-top: 1.5%;
@@ -397,6 +514,13 @@ nav .dropdown .dropContnt .row .col a i {
   cursor: pointer;
 }
 
+@media (max-width: 450px) {
+  .book #flightStatus button {
+    padding: 1% 4%;
+    font-size: 0.5rem;
+  }
+}
+
 .book #flightStatus button i {
   color: #222;
 }
@@ -404,6 +528,12 @@ nav .dropdown .dropContnt .row .col a i {
 .book #flightStatus p {
   color: maroon;
   padding: 2%;
+}
+
+@media (max-width: 450px) {
+  .book #flightStatus p {
+    font-size: 0.6rem;
+  }
 }
 
 .hide {
@@ -456,6 +586,12 @@ nav .dropdown .dropContnt .row .col a i {
   }
 }
 
+@media (max-width: 450px) {
+  .one {
+    margin-bottom: 200%;
+  }
+}
+
 .one p {
   padding-bottom: 2%;
 }
@@ -494,6 +630,13 @@ nav .dropdown .dropContnt .row .col a i {
 @media (max-width: 1100px) {
   .one .flex .flexItem {
     min-width: 45%;
+  }
+}
+
+@media (max-width: 450px) {
+  .one .flex .flexItem {
+    min-width: 90%;
+    margin: auto;
   }
 }
 
@@ -562,6 +705,13 @@ nav .dropdown .dropContnt .row .col a i {
   .parent {
     display: block;
     margin-top: 8%;
+  }
+}
+
+@media (max-width: 450px) {
+  .parent {
+    padding-left: 0%;
+    margin-left: -2%;
   }
 }
 
@@ -1175,6 +1325,12 @@ nav .dropdown .dropContnt .row .col a i {
           align-items: center;
 }
 
+@media (max-width: 450px) {
+  .btn {
+    margin-bottom: 8%;
+  }
+}
+
 .btn button {
   padding: 1% 3%;
   border: 1px solid #68143f;
@@ -1230,6 +1386,14 @@ nav .dropdown .dropContnt .row .col a i {
   }
 }
 
+@media (max-width: 450px) {
+  #priv .priv {
+    font-size: .35rem;
+    width: 60%;
+    margin-top: 8%;
+  }
+}
+
 #priv .priv button {
   padding: 2% 8%;
   background: transparent;
@@ -1245,6 +1409,12 @@ nav .dropdown .dropContnt .row .col a i {
 #priv .priv button:hover {
   background-color: #fff;
   color: #68143f;
+}
+
+@media (max-width: 450px) {
+  #priv .priv button {
+    font-size: .35rem;
+  }
 }
 
 #baggage {
@@ -1283,9 +1453,21 @@ nav .dropdown .dropContnt .row .col a i {
   padding: 3%;
 }
 
+@media (max-width: 450px) {
+  #baggage .bag h1 {
+    font-size: .5rem;
+  }
+}
+
 #baggage .bag p {
   padding-bottom: 3%;
   padding-left: 3%;
+}
+
+@media (max-width: 450px) {
+  #baggage .bag p {
+    font-size: .35rem;
+  }
 }
 
 @media (max-width: 850px) {
@@ -1311,6 +1493,12 @@ nav .dropdown .dropContnt .row .col a i {
 #baggage .bag button:hover {
   background-color: #fff;
   color: #68143f;
+}
+
+@media (max-width: 450px) {
+  #baggage .bag button {
+    font-size: .35rem;
+  }
 }
 
 #mobile {
@@ -1348,9 +1536,21 @@ nav .dropdown .dropContnt .row .col a i {
   padding: 3%;
 }
 
+@media (max-width: 450px) {
+  #mobile .mobi h1 {
+    font-size: .5rem;
+  }
+}
+
 #mobile .mobi p {
   padding-bottom: 3%;
   padding-left: 3%;
+}
+
+@media (max-width: 450px) {
+  #mobile .mobi p {
+    font-size: .35rem;
+  }
 }
 
 @media (max-width: 850px) {
@@ -1376,6 +1576,12 @@ nav .dropdown .dropContnt .row .col a i {
 #mobile .mobi button:hover {
   background-color: #fff;
   color: #68143f;
+}
+
+@media (max-width: 450px) {
+  #mobile .mobi button {
+    font-size: .35rem;
+  }
 }
 
 #toronto {
@@ -1413,9 +1619,21 @@ nav .dropdown .dropContnt .row .col a i {
   padding: 3%;
 }
 
+@media (max-width: 450px) {
+  #toronto .tor h1 {
+    font-size: .5rem;
+  }
+}
+
 #toronto .tor p {
   padding-bottom: 3%;
   padding-left: 3%;
+}
+
+@media (max-width: 450px) {
+  #toronto .tor p {
+    font-size: .35rem;
+  }
 }
 
 @media (max-width: 850px) {
@@ -1443,6 +1661,12 @@ nav .dropdown .dropContnt .row .col a i {
   color: #68143f;
 }
 
+@media (max-width: 450px) {
+  #toronto .tor button {
+    font-size: .35rem;
+  }
+}
+
 .togg {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1458,6 +1682,12 @@ nav .dropdown .dropContnt .row .col a i {
   cursor: pointer;
 }
 
+@media (max-width: 450px) {
+  .togg {
+    font-size: 0.5rem;
+  }
+}
+
 .active1 {
   color: white;
 }
@@ -1466,6 +1696,12 @@ nav .dropdown .dropContnt .row .col a i {
   width: 90%;
   margin: auto;
   padding: 2%;
+}
+
+@media (max-width: 450px) {
+  .three {
+    font-size: .6rem;
+  }
 }
 
 .four {
@@ -1501,6 +1737,12 @@ nav .dropdown .dropContnt .row .col a i {
   width: 40%;
   border-radius: 5px;
   background-color: white;
+}
+
+@media (max-width: 450px) {
+  .four .african {
+    min-width: 90%;
+  }
 }
 
 .four .african img {
@@ -1580,6 +1822,12 @@ nav .dropdown .dropContnt .row .col a i {
   border-top-right-radius: 5px;
 }
 
+@media (max-width: 450px) {
+  .four .studentClub {
+    min-width: 90%;
+  }
+}
+
 .four .studentClub p {
   padding: 1% 2%;
   color: grey;
@@ -1634,6 +1882,18 @@ nav .dropdown .dropContnt .row .col a i {
   font-size: 0.9rem;
 }
 
+@media (max-width: 450px) {
+  .five p {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .five h2 {
+    font-size: 0.9rem;
+  }
+}
+
 .six {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1666,6 +1926,13 @@ nav .dropdown .dropContnt .row .col a i {
 @media (max-width: 850px) {
   .six .sixCont {
     min-width: 45%;
+  }
+}
+
+@media (max-width: 450px) {
+  .six .sixCont {
+    min-width: 90%;
+    margin: auto;
   }
 }
 
@@ -1721,6 +1988,12 @@ nav .dropdown .dropContnt .row .col a i {
   }
 }
 
+@media (max-width: 450px) {
+  .last .lastCont {
+    width: 80%;
+  }
+}
+
 .last .lastCont button {
   right: 1%;
   position: absolute;
@@ -1739,6 +2012,12 @@ nav .dropdown .dropContnt .row .col a i {
 @media (max-width: 850px) {
   .last .lastCont button {
     font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .last .lastCont button {
+    font-size: .5rem;
   }
 }
 
@@ -1843,6 +2122,12 @@ nav .dropdown .dropContnt .row .col a i {
   }
 }
 
+@media (max-width: 450px) {
+  .last .lastCont h2 {
+    font-size: .7rem;
+  }
+}
+
 .last .lastCont p {
   padding: 2% 0%;
 }
@@ -1850,6 +2135,12 @@ nav .dropdown .dropContnt .row .col a i {
 @media (max-width: 1100px) {
   .last .lastCont p {
     font-size: .7rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .last .lastCont p {
+    font-size: 0.5rem;
   }
 }
 
@@ -1873,6 +2164,12 @@ footer {
   }
 }
 
+@media (max-width: 450px) {
+  footer {
+    height: 270vh;
+  }
+}
+
 footer .foot {
   padding: 5%;
 }
@@ -1884,6 +2181,13 @@ footer .foot .top {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media (max-width: 450px) {
+  footer .foot .top {
+    display: block;
+    height: 200vh;
+  }
 }
 
 footer .foot .top .topItem h2 {
@@ -1951,6 +2255,13 @@ footer .foot .bottom {
       -ms-flex-pack: start;
           justify-content: start;
   margin-top: 6%;
+}
+
+@media (max-width: 450px) {
+  footer .foot .bottom {
+    display: block;
+    margin-top: 12%;
+  }
 }
 
 footer .foot .bottom .botItem {
